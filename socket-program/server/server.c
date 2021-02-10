@@ -90,7 +90,7 @@ int BindCreatedSocket(int hSocket)
 //control function
 int main(int argc, char *argv[])
 {
-    int socket_desc, sock, clientLen, read_size;
+    int socket_desc, sock, clientLen, read_size
     struct sockaddr_in server, client;
     FILE *fptr;
     FILE *f1,*f2;
