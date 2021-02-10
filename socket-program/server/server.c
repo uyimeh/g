@@ -293,6 +293,7 @@ int main(int argc, char *argv[])
 	} 
 	close(sock);
 	sleep(1);
+	
 	return 0;
 }
 
